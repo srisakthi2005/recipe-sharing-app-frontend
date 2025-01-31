@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* background: url("https://thumbs.dreamstime.com/z/recipe-book-surrounded-ingredients-still-life-creative-ai-design-background-instagram-facebook-wall-painting-wallpaper-325563710.jpg"); */
+    margin: 0;
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+    color:black;
+    /* border:1px solid black; */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px grey;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .nav {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .nav li {
+    display: inline;
+    
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    
+
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form Styles */
+  form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form h2 {
+    margin-top: 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Recipe List */
+  .view-recipe-container {
+    margin-top: 20px;
+  }
+  
+  .recipe-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-item h3 {
+    margin-top: 0;
+  }
+  
+  .actions {
+    margin-top: 15px;
+  }
+  
+  .actions a,
+  .actions button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .actions button:hover,
+  .actions a:hover {
+    background-color: #45a049;
+  }
+  
+  /* Comment Section */
+  .comment-section {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .comment-section h4 {
+    margin: 0 0 10px;
+  }
+  
+  .comment-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-section li {
+    background-color: #f0f0f0;
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  .comment-section input {
+    width: calc(100% - 100px);
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .comment-section button {
+    width: 90px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .comment-section button:hover {
+    background-color: #45a049;
+  }
+  .recipe-card{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px grey;
+    /* background-color: #ddd; */
+  } 
+.del-btn{
+  margin-top: 10px;
+}
+
+.comment-btn{
+  margin-top: 10px;
+}
