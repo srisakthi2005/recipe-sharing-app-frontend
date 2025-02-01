@@ -111,7 +111,7 @@ function AddRecipes({ addRecipe }) {
   // };
 
   axios
-  .post("http://localhost:3000/api/recipes", newRecipe)
+  .post("https://recipe-sharing-app-backend-7gkl.onrender.com/api/recipes", newRecipe)
   .then((response) => {
     console.log("Recipe added successfully:", response.data);
     setMessage("Recipe added successfully!");
