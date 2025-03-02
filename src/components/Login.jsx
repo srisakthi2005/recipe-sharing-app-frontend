@@ -75,7 +75,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3000/api/login", {
+      const response = await axios.post("https://recipe-sharing-app-backend-7gkl.onrender.com/api/login", {
         username,
         password,
       });

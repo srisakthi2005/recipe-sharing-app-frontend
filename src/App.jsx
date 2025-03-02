@@ -1,6 +1,4 @@
 
-
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -100,8 +98,8 @@ function App() {
               path="/delete"
               element={
                 <DeleteRecipe /> }
-                  // recipes={recipes}
-                  // deleteRecipe={deleteRecipe}
+                  recipes={recipes}
+                  deleteRecipe={deleteRecipe}
               
                 />
             <Route path="/signup" element={<SignUp />} />

@@ -12,7 +12,7 @@ const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3000/api/register", {
+      const response = await axios.post("https://recipe-sharing-app-backend-7gkl.onrender.com/api/register", {
         username,
         // email,
         password,
